@@ -1,0 +1,165 @@
+/* === Primary (Deep Navy) === */
+.bgprimary {
+  background-color: #0d1b2a;
+}
+.textprimary {
+  color: #e0e1dd; /* Light gray-white for contrast */
+}
+.borderprimary {
+  border-color: #1b263b; /* Slightly lighter than bg */
+}
+
+/* === Brand Mid (Slate Blue) === */
+.bgbrandmid {
+  background-color: #1b263b;
+}
+.textbrandmid {
+  color: #e0e1dd;
+}
+.borderbrandmid {
+  border-color: #415a77;
+}
+
+/* === Accent (Aqua Teal) === */
+.bgaccent {
+  background-color: #008f8c;
+}
+.textaccent {
+  color: #ffffff;
+}
+.borderaccent {
+  border-color: #006b69; /* Deeper shade for structure */
+}
+
+/* === Warm (Gold Highlight) === */
+.bgwarm {
+  background-color: #ffc857;
+}
+.textwarm {
+  color: #5c4400; /* Dark mustard for contrast */
+}
+.borderwarm {
+  border-color: #ffd369; /* Slightly brighter gold */
+}
+
+/* === CTA (Action Red) === */
+.bgcta {
+  background-color: #e63946;
+}
+.textcta {
+  color: #ffffff;
+}
+.bordercta {
+  border-color: #9d1f2c; /* Deeper maroon-red */
+}
+
+/* === Light (Background / Neutral Base) === */
+.bglight {
+  background-color: #e0e1dd;
+}
+.textlight {
+  color: #1b263b; /* Slate blue-gray for contrast */
+}
+.borderlight {
+  border-color: #c8cbc8; /* Softer light gray */
+}
+
+/* === Shadows === */
+
+/* === Shadow Primary (deep navy glow) === */
+.shadow-primary {
+  box-shadow: 0 4px 12px rgba(13, 27, 42, 0.6); /* #0D1B2A */
+}
+
+/* === Shadow Accent (teal glow for hover/focus) === */
+.shadow-accent {
+  box-shadow: 0 4px 12px rgba(0, 143, 140, 0.5); /* #008F8C */
+}
+
+/* === Shadow Warm (gold highlight pop) === */
+.shadow-warm {
+  box-shadow: 0 4px 12px rgba(255, 200, 87, 0.4); /* #FFC857 */
+}
+
+/* === Shadow Light (white glow for dark backgrounds) === */
+.shadow-white {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+}
+
+/* === Hover: Background Colors === */
+.hover\:bgprimary:hover {
+  background-color: #0d1b2a;
+}
+.hover\:bgbrandmid:hover {
+  background-color: #1b263b;
+}
+.hover\:bgaccent:hover {
+  background-color: #008f8c;
+}
+.hover\:bgwarm:hover {
+  background-color: #ffc857;
+}
+.hover\:bgcta:hover {
+  background-color: #e63946;
+}
+.hover\:bglight:hover {
+  background-color: #e0e1dd;
+}
+.hover\:bg-emerald-500:hover {
+  background-color: #10b981;
+}
+.hover\:bgtransparent:hover {
+  background-color: transparent;
+}
+
+/* === Hover: Text Colors === */
+.hover\:textprimary:hover {
+  color: #e0e1dd;
+}
+.hover\:textbrandmid:hover {
+  color: #e0e1dd;
+}
+.hover\:textaccent:hover {
+  color: #ffffff;
+}
+.hover\:textwarm:hover {
+  color: #5c4400;
+}
+.hover\:textcta:hover {
+  color: #ffffff;
+}
+.hover\:textlight:hover {
+  color: #1b263b;
+}
+.hover\:textwhite:hover {
+  color: #ffffff;
+}
+.hover\:texttransparent:hover {
+  color: transparent;
+}
+
+/* === Hover: Border Colors === */
+.hover\:borderprimary:hover {
+  border-color: #1b263b;
+}
+.hover\:borderbrandmid:hover {
+  border-color: #415a77;
+}
+.hover\:borderaccent:hover {
+  border-color: #006b69;
+}
+.hover\:borderwarm:hover {
+  border-color: #ffd369;
+}
+.hover\:bordercta:hover {
+  border-color: #9d1f2c;
+}
+.hover\:borderlight:hover {
+  border-color: #c8cbc8;
+}
+.hover\:border-emerald-500:hover {
+  border-color: #10b981;
+}
+.hover\:bordertransparent:hover {
+  border-color: transparent;
+}
