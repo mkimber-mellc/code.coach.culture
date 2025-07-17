@@ -97,10 +97,16 @@
   box-shadow: 0 4px 12px rgba(255, 184, 102, 0.3); /* amber */
 }
 .shadow-warm {
-  box-shadow: 0 4px 12px rgba(219, 119, 82, 0.22); /* terracotta */
+  box-shadow: 0 4px 12px rgba(219, 119, 82, 0.3); /* terracotta */
+}
+.shadow-warm-lg {
+  box-shadow: 0 4px 12px rgba(219, 119, 82, 0.8); /* terracotta */
 }
 .shadow-white {
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+.shadow-white-lg {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.8);
 }
 
 /* === Hover: Background Colors === */

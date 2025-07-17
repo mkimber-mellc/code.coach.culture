@@ -6,7 +6,7 @@ import { MainContainer } from "mellc-ui-kit";
 
 export default function Home() {
   return (
-  <MainContainer bg="bgprimary">
+  <MainContainer bg="bgprimary" padding="none" gap={12}>
     <HomeHero />
     <CategoryHighlights />
     <AboutPreview />
