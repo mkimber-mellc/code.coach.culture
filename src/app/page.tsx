@@ -1,7 +1,7 @@
-import AboutPreview from "@/components/AboutPreview";
-import BlogPreview from "@/components/BlogPreview";
-import CategoryHighlights from "@/components/CategoryHighlights";
-import HomeHero from "@/components/HomeHero";
+import AboutPreview from "@/components/home/AboutPreview";
+import BlogPreview from "@/components/home/BlogPreview";
+import CategoryHighlights from "@/components/home/CategoryHighlights";
+import HomeHero from "@/components/home/HomeHero";
 import { MainContainer } from "mellc-ui-kit";
 
 export default function Home() {
