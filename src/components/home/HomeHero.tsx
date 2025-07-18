@@ -2,15 +2,22 @@ import { Title, Subtitle, Button, FlexContainer, BodyText } from 'mellc-ui-kit';
 
 export default function HomeHero() {
   return (
-    <FlexContainer flexDirection="col" gap={6} padding='lg'>
-      <Title color="textprimary">Code.Coach.Culture</Title>
-      <Subtitle color="textprimary" align="center" weight="normal">
+    <FlexContainer
+      bg="bgaccent"
+      flexDirection="col"
+      gap={6}
+      padding="2xl"
+      className="md:p-24"
+    >
+      <Title color="textaccent">Code.Coach.Culture</Title>
+      <Subtitle color="textaccent" align="center" weight="normal">
         Lead with Clarity, Build with Confidence, Grow with Intention
       </Subtitle>
-      <BodyText color="textprimary" align='center'>
+      <BodyText color="textaccent" align="center">
         Where ambitious creators and conscious leaders grow their skills, systems, and community—all
         without losing their vibe.
       </BodyText>
+
       <FlexContainer justify="center" gap={4}>
         <Button href="/blog" title="Read the Blog" bg="bgcta" color="textcta" padding="sm" />
         <Button
@@ -19,7 +26,7 @@ export default function HomeHero() {
           bg="bglight"
           color="textlight"
           padding="sm"
-        /> 
+        />
       </FlexContainer>
     </FlexContainer>
   );
