@@ -1,11 +1,11 @@
 import { defaultPosts, BlogPreviewProps, BlogPost } from '@/lib/data/blogposts';
-import { Subtitle, BodyText, Button, FlexContainer, GridContainer } from 'mellc-ui-kit';
+import { Subtitle, BodyText, Button, FlexContainer, GridContainer, CaptionText } from 'mellc-ui-kit';
 
 export default function BlogPreview({ posts = defaultPosts, limit = 3 }: BlogPreviewProps) {
   const previewPosts = posts.slice(0, limit);
 
   return (
-    <FlexContainer flexDirection="col" gap={6} padding="xl" width={'full'} className="md:px-20">
+    <FlexContainer flexDirection="col" gap={8} padding="xl" className="sm:px-20 ">
       <Subtitle color="textprimary" align="center">
         Latest Blog Posts
       </Subtitle>
@@ -35,7 +35,9 @@ export default function BlogPreview({ posts = defaultPosts, limit = 3 }: BlogPre
         ))}
       </GridContainer>
       <FlexContainer justify="center" padding="sm">
-        <Button title="See all posts" href="/blog" bg="bgcta" color="textcta" className='px-8 py-2' />
+        <Button href="/blog" bg="bgcta" color="textcta" className='px-8 py-2'>
+          <CaptionText weight='bold'>SEE ALL POSTS</CaptionText>
+        </Button>
       </FlexContainer>
     </FlexContainer>
   );

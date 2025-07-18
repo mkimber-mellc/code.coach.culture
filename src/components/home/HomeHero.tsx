@@ -1,4 +1,4 @@
-import { Title, Subtitle, Button, FlexContainer, BodyText, BlockContainer } from 'mellc-ui-kit';
+import { Title, Subtitle, Button, FlexContainer, BodyText } from 'mellc-ui-kit';
 
 export default function HomeHero() {
   return (
@@ -7,7 +7,6 @@ export default function HomeHero() {
       flexDirection="col"
       gap={6}
       padding="2xl"
-      width={'full'}
       className="md:p-24"
     >
       <Title color="textaccent">Code.Coach.Culture</Title>
