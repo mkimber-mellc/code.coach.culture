@@ -1,165 +1,144 @@
-/* === Primary (Deep Navy) === */
+/* === Primary (Espresso Brown) === */
 .bgprimary {
-  background-color: #0d1b2a;
+  background-color: #2d1f17; /* espresso */
 }
 .textprimary {
-  color: #e0e1dd; /* Light gray-white for contrast */
+  color: #fff8f0; /* soft cream */
 }
 .borderprimary {
-  border-color: #1b263b; /* Slightly lighter than bg */
+  border-color: #6e5849; /* walnut */
 }
 
-/* === Brand Mid (Slate Blue) === */
+/* === Secondary (Warm Sand) === */
+.bgsecondary {
+  background-color: #f3e9dd; /* sand */
+}
+.textsecondary {
+  color: #2d1f17; /* espresso */
+}
+.bordersecondary {
+  border-color: #c8b7a6; /* soft sand border */
+}
+
+/* === Brand Mid (Sage Green) === */
 .bgbrandmid {
-  background-color: #1b263b;
+  background-color: #b8c4a6; /* sage */
 }
 .textbrandmid {
-  color: #e0e1dd;
+  color: #273220; /* deep sage */
 }
 .borderbrandmid {
-  border-color: #415a77;
+  border-color: #97a97c;
 }
 
-/* === Accent (Aqua Teal) === */
+/* === Accent (Amber/Apricot) === */
 .bgaccent {
-  background-color: #008f8c;
+  background-color: #ffb866; /* apricot/amber */
 }
 .textaccent {
-  color: #ffffff;
+  color: #422600; /* deep amber */
 }
 .borderaccent {
-  border-color: #006b69; /* Deeper shade for structure */
+  border-color: #ff9800; /* stronger amber */
 }
 
-/* === Warm (Gold Highlight) === */
+/* === Warm (Terracotta) === */
 .bgwarm {
-  background-color: #ffc857;
+  background-color: #db7752; /* terracotta */
 }
 .textwarm {
-  color: #5c4400; /* Dark mustard for contrast */
+  color: #fff8f0; /* cream */
 }
 .borderwarm {
-  border-color: #ffd369; /* Slightly brighter gold */
+  border-color: #b24c1a; /* earthy red */
 }
 
-/* === CTA (Action Red) === */
+/* === CTA (Emerald Green) === */
 .bgcta {
-  background-color: #e63946;
+  background-color: #31b57a; /* emerald */
 }
 .textcta {
   color: #ffffff;
 }
 .bordercta {
-  border-color: #9d1f2c; /* Deeper maroon-red */
+  border-color: #1d774b;
 }
 
 /* === Light (Background / Neutral Base) === */
 .bglight {
-  background-color: #e0e1dd;
+  background-color: #f8f7f2;
 }
 .textlight {
-  color: #1b263b; /* Slate blue-gray for contrast */
+  color: #2d1f17;
 }
 .borderlight {
-  border-color: #c8cbc8; /* Softer light gray */
+  border-color: #ded6c3;
+}
+
+/* === Dark (Background / Black) === */
+.bgdark {
+  background-color: #161616;
+}
+.textdark {
+  color: #fff8f0;
+}
+.borderdark {
+  border-color: #41352e;
 }
 
 /* === Shadows === */
-
-/* === Shadow Primary (deep navy glow) === */
 .shadow-primary {
-  box-shadow: 0 4px 12px rgba(13, 27, 42, 0.6); /* #0D1B2A */
+  box-shadow: 0 4px 12px rgba(45, 31, 23, 0.25); /* espresso */
 }
-
-/* === Shadow Accent (teal glow for hover/focus) === */
+.shadow-secondary {
+  box-shadow: 0 4px 12px rgba(243, 233, 221, 0.3); /* sand */
+}
 .shadow-accent {
-  box-shadow: 0 4px 12px rgba(0, 143, 140, 0.5); /* #008F8C */
+  box-shadow: 0 4px 12px rgba(255, 184, 102, 0.3); /* amber */
 }
-
-/* === Shadow Warm (gold highlight pop) === */
 .shadow-warm {
-  box-shadow: 0 4px 12px rgba(255, 200, 87, 0.4); /* #FFC857 */
+  box-shadow: 0 4px 12px rgba(219, 119, 82, 0.3); /* terracotta */
 }
-
-/* === Shadow Light (white glow for dark backgrounds) === */
+.shadow-warm-lg {
+  box-shadow: 0 4px 12px rgba(219, 119, 82, 0.8); /* terracotta */
+}
 .shadow-white {
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+.shadow-white-lg {
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.8);
 }
 
 /* === Hover: Background Colors === */
-.hover\:bgprimary:hover {
-  background-color: #0d1b2a;
-}
-.hover\:bgbrandmid:hover {
-  background-color: #1b263b;
-}
-.hover\:bgaccent:hover {
-  background-color: #008f8c;
-}
-.hover\:bgwarm:hover {
-  background-color: #ffc857;
-}
-.hover\:bgcta:hover {
-  background-color: #e63946;
-}
-.hover\:bglight:hover {
-  background-color: #e0e1dd;
-}
-.hover\:bg-emerald-500:hover {
-  background-color: #10b981;
-}
-.hover\:bgtransparent:hover {
-  background-color: transparent;
-}
+.hover\:bgprimary:hover { background-color: #2d1f17; }
+.hover\:bgsecondary:hover { background-color: #f3e9dd; }
+.hover\:bgbrandmid:hover { background-color: #b8c4a6; }
+.hover\:bgaccent:hover { background-color: #ffb866; }
+.hover\:bgwarm:hover { background-color: #db7752; }
+.hover\:bgcta:hover { background-color: #31b57a; }
+.hover\:bglight:hover { background-color: #f8f7f2; }
+.hover\:bgdark:hover { background-color: #161616; }
+.hover\:bgtransparent:hover { background-color: transparent; }
 
 /* === Hover: Text Colors === */
-.hover\:textprimary:hover {
-  color: #e0e1dd;
-}
-.hover\:textbrandmid:hover {
-  color: #e0e1dd;
-}
-.hover\:textaccent:hover {
-  color: #ffffff;
-}
-.hover\:textwarm:hover {
-  color: #5c4400;
-}
-.hover\:textcta:hover {
-  color: #ffffff;
-}
-.hover\:textlight:hover {
-  color: #1b263b;
-}
-.hover\:textwhite:hover {
-  color: #ffffff;
-}
-.hover\:texttransparent:hover {
-  color: transparent;
-}
+.hover\:textprimary:hover { color: #fff8f0; }
+.hover\:textsecondary:hover { color: #2d1f17; }
+.hover\:textbrandmid:hover { color: #273220; }
+.hover\:textaccent:hover { color: #422600; }
+.hover\:textwarm:hover { color: #fff8f0; }
+.hover\:textcta:hover { color: #ffffff; }
+.hover\:textlight:hover { color: #2d1f17; }
+.hover\:textdark:hover { color: #fff8f0; }
+.hover\:textwhite:hover { color: #ffffff; }
+.hover\:texttransparent:hover { color: transparent; }
 
 /* === Hover: Border Colors === */
-.hover\:borderprimary:hover {
-  border-color: #1b263b;
-}
-.hover\:borderbrandmid:hover {
-  border-color: #415a77;
-}
-.hover\:borderaccent:hover {
-  border-color: #006b69;
-}
-.hover\:borderwarm:hover {
-  border-color: #ffd369;
-}
-.hover\:bordercta:hover {
-  border-color: #9d1f2c;
-}
-.hover\:borderlight:hover {
-  border-color: #c8cbc8;
-}
-.hover\:border-emerald-500:hover {
-  border-color: #10b981;
-}
-.hover\:bordertransparent:hover {
-  border-color: transparent;
-}
+.hover\:borderprimary:hover { border-color: #6e5849; }
+.hover\:bordersecondary:hover { border-color: #c8b7a6; }
+.hover\:borderbrandmid:hover { border-color: #97a97c; }
+.hover\:borderaccent:hover { border-color: #ff9800; }
+.hover\:borderwarm:hover { border-color: #b24c1a; }
+.hover\:bordercta:hover { border-color: #1d774b; }
+.hover\:borderlight:hover { border-color: #ded6c3; }
+.hover\:borderdark:hover { border-color: #41352e; }
+.hover\:bordertransparent:hover { border-color: transparent; }
